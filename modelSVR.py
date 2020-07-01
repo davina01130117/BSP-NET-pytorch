@@ -13,8 +13,8 @@ from torch import optim
 from torch.autograd import Variable
 
 import mcubes
-from bspt import digest_bsp, get_mesh, get_mesh_watertight
-#from bspt_slow import digest_bsp, get_mesh, get_mesh_watertight
+#from bspt import digest_bsp, get_mesh, get_mesh_watertight
+from bspt_slow import digest_bsp, get_mesh, get_mesh_watertight
 
 from utils import *
 
